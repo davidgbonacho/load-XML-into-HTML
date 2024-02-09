@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Real Time Communication of a fake game-->
+<!DOCTYPE rtc [
+    <!ELEMENT rtc (player,weapons)>
+    <!ELEMENT player (id,name,health,speed,position)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT health (#PCDATA)>
+    <!ELEMENT speed (#PCDATA)>
+    <!ELEMENT position (xcor,ycor,zcor)>
+    <!ELEMENT xcor (#PCDATA)>
+    <!ELEMENT ycor (#PCDATA)>
+    <!ELEMENT zcor (#PCDATA)>
+    <!ELEMENT weapons (shots,loadout)>
+    <!ELEMENT shots (shot+)>
+    <!ELEMENT shot EMPTY>
+    <!ATTLIST shot x NMTOKEN #REQUIRED>
+    <!ATTLIST shot y NMTOKEN #REQUIRED>
+    <!ATTLIST shot z NMTOKEN #REQUIRED>
+    <!ELEMENT loadout (weapon+)>
+    <!ELEMENT weapon EMPTY>
+    <!ATTLIST weapon type NMTOKEN #REQUIRED>
+    <!ATTLIST weapon ammo NMTOKEN #IMPLIED>
+    <!ATTLIST weapon active NMTOKEN #IMPLIED>
+]>
+<rtc>
+    <player>
+        <id>746</id>
+        <name>Thomas</name>
+        <health>10</health>
+        <speed>25</speed>
+        <position>
+            <xcor>345.5</xcor>
+            <ycor>233.4</ycor>
+            <zcor>134.5</zcor>
+        </position>
+    </player>
+    <weapons>
+        <shots>
+            <shot x="4" y="3" z="7"></shot>
+            <shot x="4" y="2" z="7"></shot>
+            <shot x="4" y="2" z="6"></shot>
+            <shot x="4" y="2" z="5"></shot>
+        </shots>
+        <loadout>
+            <weapon type="pistol" ammo="3" active="1"></weapon>
+            <weapon type="shotgun" ammo="2"></weapon>
+            <weapon type="knife"></weapon>
+        </loadout>
+    </weapons>
+</rtc>
