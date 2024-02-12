@@ -8,7 +8,7 @@ Using Javascript ()
 Simply clone the repo and run the code from Apache. 
 
 ## Perform
-Simply request the document index.html
+Simply request the document index.html and it will call and load the XML file
 
 ## Files
 - index.html: an ultra-simple HTML document 
