@@ -14,6 +14,7 @@ Simply request the document index.html and it will call and load the XML file
 - index.html: an ultra-simple HTML document 
 - game.xml: fake xml (in fake RTC multiplayer game)
 - loadxml.js: a way to load XML into HTML 
+- css/style.css: an ultra-simple css stylesheet
 - img/logo.svg: only important images are here
 
 

@@ -26,5 +26,10 @@ xhr.onload = function () {
 
 
 };
-xhr.open('GET', 'game.xml');
-xhr.send();
+
+function loadXML() {
+
+    xhr.open('GET', 'game.xml');
+    xhr.send();
+
+}
