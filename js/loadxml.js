@@ -8,7 +8,7 @@ xhr.onload = function () {
     parser = new DOMParser();
     xmlDoc = parser.parseFromString(xml, "text/xml");
 
-    //console.log(xmlDoc);
+    console.log(xmlDoc);
 
     // two ways to get data [iterate DOM]
     document.getElementById("name").innerHTML = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
