@@ -1,6 +1,6 @@
 
 # load XML into HTML
-Using Javascript ()
+Load an XML into HTML sing Javascript
 
 `[SimPIL are a series of ultra-simple examples of how to perform different operations with code. Uncomplicated.]`
 
