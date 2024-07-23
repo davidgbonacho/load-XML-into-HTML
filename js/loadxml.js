@@ -1,3 +1,7 @@
+/**
+ * @author David G. Bonacho - 2024
+ */
+
 
 var xhr = new XMLHttpRequest();
 xhr.onload = function () {
