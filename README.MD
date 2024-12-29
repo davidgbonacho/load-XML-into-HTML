@@ -17,6 +17,7 @@ Simply request the document index.html and it will call and load the XML file
 - css/style.css: an ultra-simple css stylesheet
 - img/logo.svg: only important images are here
 
+[Text in Spanish here](README_ES.MD)
 
 ![](img/logo.svg)
 ---
