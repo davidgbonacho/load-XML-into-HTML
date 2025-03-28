@@ -16,6 +16,8 @@ Solo tienes que solicitar el documento `index.html` y este llamará y cargará e
 - css/style.css: una hoja de estilos CSS ultra-sencilla
 - img/logo.svg: solo las imágenes importantes están aquí
 
+[Text in English here](README.MD)
+
 ![](img/logo.svg)
 ---
 `título:` Cargar XML en HTML [`SimPIL`] 02/09/24\
