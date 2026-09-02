@@ -16,6 +16,7 @@ Solo tienes que solicitar el documento `index.html` y este llamará y cargará e
 - css/style.css: una hoja de estilos CSS ultra-sencilla
 - img/logo.svg: solo las imágenes importantes están aquí
 
+> [!NOTE]
 [Text in English here](README.MD)
 
 ![](img/logo.svg)
